@@ -1,12 +1,10 @@
 function main(){
-    var myNoun = "dog";
-    var myVerb = "ran";
-    var myAdjective = "big";
-    var myAdverb = "quickly";
+    var lastName = "Bezos";
+    var thirdToLastLetterOfLastName = "";
+    thirdToLastLetterOfLastName = lastName[lastName.length - 3];
 
-    wordBlanks = "She lost her " + myNoun + " which is very " + myAdjective + " and he escaped " + myAdverb + " because he " + myVerb + " like a Bolt."  
-    return wordBlanks;
+    return thirdToLastLetterOfLastName;
     }
-    
+
     console.log(main());
-    module.exports = main;
+    module.exports = main; 
