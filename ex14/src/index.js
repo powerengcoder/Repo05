@@ -1,9 +1,11 @@
 function main(){
-    var lastName = "Bezos";
-    var thirdToLastLetterOfLastName = "";
-    thirdToLastLetterOfLastName = lastName[lastName.length - 3];
+    var myNoun = "dog";
+    var myVerb = "ran";
+    var myAdjective = "big";
+    var myAdverb = "quickly";
 
-    return thirdToLastLetterOfLastName;
+    wordBlanks = "She lost her " + myNoun + " which is very " + myAdjective + " and he escaped " + myAdverb + " because he " + myVerb + " like a Bolt."  
+    return wordBlanks;
     }
     
     console.log(main());
